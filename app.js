@@ -9,7 +9,7 @@ var corsOptions = {
   //link to frontend port
   origin: process.env.CORS_FRONT_ORIGIN,
 };
-console.log(corsOptions.origin, 'origin');
+
 //path to frontend folder
 const path = __dirname + '/views/';
 const xss = require('xss-clean');
