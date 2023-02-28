@@ -8,7 +8,7 @@ const cors = require('cors');
 var corsOptions = {
   //link to frontend port
   origin: process.env.CORS_FRONT_ORIGIN,
-  allowedHeaders: 'Access-Control-Allow-Origin',
+  //allowedHeaders: 'Access-Control-Allow-Origin',
 };
 
 //path to frontend folder
